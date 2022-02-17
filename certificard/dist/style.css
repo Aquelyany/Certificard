@@ -1,0 +1,117 @@
+body {
+  background-color: #f0e68c;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  background: #ecf4ff;
+  color: #1c1c1c;
+  margin: 64px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  padding: 62px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+}
+
+.foto-perfil {
+  border-radius: 460px;
+  max-height: 160px;
+  box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.25);
+}
+.titulo {
+  margin-left: 20px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+  font-family: "Sail", cursive;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.tema button {
+  align-self: flex-end;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 8px 16px;
+  background: #ecf4ff;
+  border-radius: 100px;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(230.65deg, #f5deb3 27.49%, #f4a460 83.19%);
+  box-shadow: 2px 2px 4px rgba(10, 1, 1, 0.42);
+  border-radius: 20px;
+  margin-top: 32px;
+  padding: 32px;
+}
+
+.projetos-titulo {
+  font-weight: 800;
+  font-size: 30px;
+  font-family: "Sail", cursive;
+  display: flex;
+  justify-content: space-between;
+}
+
+.item-lista {
+  list-style-type: none;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 38px;
+}
+
+.item-lista a {
+  color: #000000;
+  text-decoration: none;
+  display: flex;
+  font-size: 16px;
+  text-align: center;
+}
+a:hover {
+  font-size: 20px;
+  font-style: italic;
+}
+button:hover {
+  padding: 0.5rem 1.6rem;
+  font-size: 20px;
+}
+
+.dark .item-lista a {
+  color: #f0e68c;
+}
+
+.dark .container {
+  background: #333439;
+  color: #f6f6f6;
+}
+
+.dark .projetos {
+  color: #f0e68c;
+  background: linear-gradient(230.65deg, #1C1C1C.49%, #4f4f4f 83.19%);
+}
+
+.dark .tema button {
+  background-color: #1c1c1c;
+  color: #ffffff;
+  border: 2px solid #f7f7f7;
+}
+
+footer {
+  color: #000000;
+  text-align: center;
+}
